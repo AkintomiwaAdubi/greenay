@@ -1,0 +1,102 @@
+#hero {
+    background-color: black;
+    height: 100vh;
+}
+
+#hero h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 56px;
+}
+
+#hero p {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.green-button {
+    background-color: #91ff50;
+    border: 1px solid #91ff50;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: #262626;
+}
+
+.dark-button {
+    background-color: #262626;
+    border: 1px solid #262626;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: white;
+}
+
+#main {
+    color: #262626;
+}
+
+#main h1 {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-width {
+    width: 50%;
+}
+
+@media only screen and (max-width:768px) {
+
+    /* for small screens (mobile phones) */
+    .form-width {
+        width: 100%;
+    }
+}
+
+#idme .form-width {
+    width: 40%;
+}
+
+@media only screen and (max-width:768px) {
+
+    /* for small screens (mobile phones) */
+    #idme .form-width {
+        width: 100%;
+    }
+}
+
+#idme input,
+#idme2 input {
+    height: 1.5cm;
+    border: #262626 solid 1px;
+}
+
+#idme2 input {
+    text-align: center;
+}
+
+.idme-button {
+    background-color: #076fc3;
+    border: 1px solid #076fc3;
+    border-radius: 5px;
+    height: 1.5cm;
+    width: 100%;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+/* #91ff50 */
+/* #262626 */
